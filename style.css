@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 42px;
+    text-align: center;
+    padding: 20px;
+}
+.container{
+    width: 350px;
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin-top: 150px;
+    margin-left: 550px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.65);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    display: block;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.07);
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;     
+    background-color: #42B3F8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100%;
+}
+.bg{
+    background-image: url(https://img.freepik.com/free-vector/vector-abstract-background-design-wavy_2065-269.jpg?w=740&t=st=1696255013~exp=1696255613~hmac=3f6ebaf678f18e8516bb855d09b2c54ada5a5eee8e262b87cdd94c2b8957c29e);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: inherit;
+    font-size: 12px;
+}
